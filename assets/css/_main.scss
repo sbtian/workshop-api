@@ -1,0 +1,26 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .resultados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        #noticias_resultado{
+            display: flex;
+        }
+
+    }
+}
+
+.noticia{
+    margin: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & img{
+        width: 250px;
+        height: 350px;
+    }
+}
